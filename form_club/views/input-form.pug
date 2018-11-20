@@ -1,0 +1,25 @@
+h1 Hello applicant
+p The club would like to get to know a little about you!
+
+form(action = '/add-responses', method ='GET')
+
+    p What's your first name?
+    input(type="text" name="name")
+    br
+    br
+    span Are you willing to do anything for the club?
+    input(type = 'checkbox', name = 'willing')
+    br
+    br
+    p Age?
+    input(type="text" name="age")
+    br
+    p Give us your password or you're not in
+    input(type="password" name="password" value="password")
+    input(type="button" onclick="alert('Surprise!')" value="Click this button for a surprise")
+    br
+    input(type = 'reset')
+    br
+    input(type = 'submit' value = "this submit button is legally binding")
+
+
